@@ -10,7 +10,11 @@ module.exports = {
 		"accessor-pairs": "error",
 		"array-bracket-spacing": [
 			"error",
-			"never"
+			"always",
+			{
+				"objectsInArrays": false,
+				"arraysInArrays": false
+			}
 		],
 		"array-callback-return": "error",
 		"arrow-body-style": "error",
