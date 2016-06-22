@@ -3,7 +3,7 @@ Gun-Hue
 *Real-time updates with hue and gunDB*
 
 ## What it is
-This is a tiny library that syncs hue data and lets you change your lights through gunDB.
+This is a tiny library that syncs hue data and lets you change your lights through [gunDB](http://gun.js.org/).
 
 By using gun, you get some immediate benefits:
 
@@ -15,6 +15,7 @@ By using gun, you get some immediate benefits:
 
 ## How to use it
 The best way to install is from [npm](https://docs.npmjs.com/getting-started/what-is-npm). Here's how:
+
 ```sh
 npm install gun-hue
 ```
@@ -61,7 +62,12 @@ lights.path('5.state.bri').put(42)
 
 For more stuff you can do, I shall defer to the [Philips Hue API](http://www.developers.meethue.com/philips-hue-api) (you may need to register to see it all).
 
+## Warning
+If you change the state of the lights through something other than gun after it's already connected, the state won't sync. This is because this library doesn't poll the rest service.
+
+Once [this gun issue](https://github.com/amark/gun/issues/167) has been resolved, I'll probably build the polling logic.
+
 ## Support
-Have questions? Either post an issue or tag me on [Gitter](gitter.im/amark/gun) (I usually hang out there as @PsychoLlama).
+Have questions? Either post an issue or tag me on [Gitter](https://gitter.im/amark/gun/) (I usually hang out there as @PsychoLlama).
 
 Thanks for checking out the project! :blush:
