@@ -1,16 +1,34 @@
 {
   "name": "gun-hue",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy hue client with real-time sync",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "eslint src/ --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "gun",
+    "hue",
+    "lights",
+    "real-time",
+    "easy"
+  ],
   "author": "Jesse Gibson <jesse@gundb.io> (http://techllama.com)",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.12.0",
     "gun": "^0.3.92"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsychoLlama/gun-hue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PsychoLlama/gun-hue/issues"
+  },
+  "homepage": "https://github.com/PsychoLlama/gun-hue#readme"
 }
