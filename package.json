@@ -21,7 +21,7 @@
     "gun": "^0.3.97"
   },
   "devDependencies": {
-    "eslint": "^3.3.1"
+    "eslint": "^3.4.0"
   },
   "repository": {
     "type": "git",
