@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.1",
-    "gun": "^0.3.996"
+    "gun": "^0.3.997"
   },
   "devDependencies": {
     "eslint": "^3.8.0"
