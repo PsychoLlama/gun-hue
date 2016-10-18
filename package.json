@@ -17,7 +17,7 @@
   "author": "Jesse Gibson <jesse@gundb.io> (http://techllama.com)",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.15.1",
+    "axios": "^0.15.2",
     "gun": "^0.3.997"
   },
   "devDependencies": {
